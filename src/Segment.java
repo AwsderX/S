@@ -34,6 +34,7 @@ class Segment implements Figure{
         g.setColor(Color.red);
         g.fillOval(q.getX(),q.getY(),2,2);
         g.setColor(Color.red);
-        g.drawLine(p.getX(),p.getY(),q.getX(),q.getY());
+        g.drawLine(p.getX(), p.getY(), q.getX(), q.getY());
+
     }
 }

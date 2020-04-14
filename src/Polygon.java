@@ -71,7 +71,7 @@ class Polygon extends Deq implements Figure{
         for(int i = length(); i >= 0; i--){
             g.fillOval(front().getX(),front().getY(),2,2);
             pushBack(popFront());
-            if(k = true){
+            if(k == true){
                 g.drawLine(lastXcoord, lastYcoord, front().getX(), front().getY());
             }
             lastXcoord = front().getX();
